@@ -63,7 +63,12 @@ code {
 .description {
   font-size: 16px;
   text-align: justify;
-  margin-top: 85px;
+}
+
+.team {
+  .row-fluid .span3 {
+    margin-left: 20px !important;
+  }
 }
 
 .portfolio {

@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'mysql2'
 gem 'haml-rails'
+gem 'rails_admin'
+gem 'carrierwave'
+gem 'rails_admin_jcrop'
 
 group :development, :test do
   gem 'rspec-rails'
@@ -24,8 +27,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 
   gem 'therubyracer', :platforms => :ruby
-  gem 'twitter-bootstrap-rails', '2.1.7'
+  gem 'twitter-bootstrap-rails'
   gem 'less-rails'
 end
 
 gem 'jquery-rails'
+
+gem "devise"
